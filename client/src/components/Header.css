@@ -1,0 +1,79 @@
+/* Header.css */
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  transition: all 0.3s ease;
+}
+
+.header.scrolled {
+  background-color: rgba(255, 255, 255, 0.9); /* bg-white/90 */
+  backdrop-filter: blur(8px); /* backdrop-blur-md */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* shadow-sm */
+}
+
+.header.not-scrolled {
+  background-color: transparent;
+}
+
+.navbar {
+  max-width: 1200px; /* container */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.5rem;  /* px-6 */
+  padding-right: 1.5rem;
+  padding-top: 1rem;    /* py-4 */
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 700;  /* font-bold */
+  color: #2563eb;    /* example primary color (blue-600) */
+}
+
+/* Responsive: hide nav links on small screens, show on md+ */
+.nav-links {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+    gap: 2rem; /* space-x-8 */
+  }
+}
+
+.nav-button {
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500; /* font-medium */
+  color: #6b7280; /* text-muted-foreground (gray-500) */
+  text-transform: capitalize;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.nav-button:hover {
+  color: #2563eb; /* hover:text-primary */
+}
+
+.cta-button {
+  background-color: #2563eb; /* bg-primary */
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-radius: 0.25rem; /* rounded */
+}
+
+.cta-button:hover {
+  background-color: rgba(37, 99, 235, 0.9); /* hover:bg-primary/90 */
+}
