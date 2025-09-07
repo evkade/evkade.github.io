@@ -64,8 +64,8 @@ function About() {
           ))}
         </div>
 
-        <div className="about-skills">
-          <h3 className="skills-title">Technical Skills</h3>
+        <div className="about-skills" id="skills">
+          <h3 className="skills-title">Skills & technologies</h3>
           {Object.entries(skills).map(([category, skillList]) => (
             <SkillGroup key={category} title={category} skills={skillList} />
           ))}

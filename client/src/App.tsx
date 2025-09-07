@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
 import About from "./pages/about/About";
-import Me from "./pages/Me";
+import Me from "./pages/me/Me";
 
 function App() {
   return (
@@ -11,7 +11,6 @@ function App() {
         <Me />
         <About />
         {/*
-        <Skills />
         <Experience />
         <Projects />
         <Contact /> */}

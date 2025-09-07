@@ -1,8 +1,8 @@
 import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
 
 import "./Me.css";
-import Button from "../components/button/Button";
-import eva from "../static_resources/eva.png";
+import Button from "../../components/button/Button";
+import eva from "../../static_resources/eva.png";
 
 const Me = () => {
   const scrollToSection = (sectionId: string) => {
