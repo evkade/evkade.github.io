@@ -1,7 +1,10 @@
 import "./App.css";
 import Header from "./components/Header";
 import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
+import Experience from "./pages/experience/Experience";
 import Me from "./pages/me/Me";
+import Projects from "./pages/projects/Projects";
 
 function App() {
   return (
@@ -10,10 +13,9 @@ function App() {
       <main>
         <Me />
         <About />
-        {/*
         <Experience />
         <Projects />
-        <Contact /> */}
+        <Contact />
       </main>
     </div>
   );
