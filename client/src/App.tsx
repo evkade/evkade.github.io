@@ -1,14 +1,14 @@
-import React from "react";
 import "./App.css";
 import Header from "./components/Header";
+import Me from "./pages/Me";
 
 function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100">
       <Header />
       <main>
-        {/* <Hero />
-        <About />
+        <Me />
+        {/*<About />
         <Skills />
         <Experience />
         <Projects />
