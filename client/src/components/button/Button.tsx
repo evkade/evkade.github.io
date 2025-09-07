@@ -10,8 +10,10 @@ type ButtonProps = {
     | "outline"
     | "secondary"
     | "ghost"
-    | "link";
+    | "link"
+    | "social";
   size?: "default-size" | "sm" | "lg" | "icon";
+  icon?: React.ReactNode;
 };
 
 function Button({
@@ -20,6 +22,7 @@ function Button({
   link,
   variant = "default",
   size = "default-size",
+  icon,
 }: ButtonProps) {
   if (link == null && onClick == null) {
     throw new Error("Defined button with no link or onClick!");
@@ -30,6 +33,13 @@ function Button({
 
   const className = `button button-${variant} button-${size}`;
 
+  const content = (
+    <>
+      {icon && <span className="button-icon-wrapper">{icon}</span>}
+      {label}
+    </>
+  );
+
   if (link != null) {
     return (
       <a
@@ -38,14 +48,14 @@ function Button({
         rel="noopener noreferrer"
         className={className} // <-- use dynamic class
       >
-        {label}
+        {content}
       </a>
     );
   }
 
   return (
     <button className={className} onClick={onClick}>
-      {label}
+      {content}
     </button>
   );
 }

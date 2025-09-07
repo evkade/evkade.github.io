@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* globals.css */
+:root {
+  --primary: #3b82f6;
+  --secondary: #e5e7eb;
+  --accent: #60a5fa;            /* soft blue */
+  --accent-foreground: #1f2937; /* dark text on accent */
+  --foreground: #1f2937;
+  --background: #ffffff;
+}

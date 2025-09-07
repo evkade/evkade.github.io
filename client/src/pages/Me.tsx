@@ -1,5 +1,6 @@
 import Button from "../components/button/Button";
 import "./Me.css";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 const Me = () => {
   const scrollToSection = (sectionId: string) => {
@@ -24,10 +25,14 @@ const Me = () => {
             animationFillMode: "forwards",
           }}
         >
-          <h1 className="me-title">Software Engineer</h1>
+          <h1 className="me-title">
+            <span className="intro">Hi, I'm</span>
+            <span className="name">Eva Despinoy</span>
+          </h1>
           <p className="me-subtitle">
-            Passionate about building scalable web applications and creating
-            exceptional user experiences with modern technologies.
+            Working accross the stack, I am both passionate about building
+            reliable and scalable systems, and creating exceptional user
+            experiences.
           </p>
         </div>
         <div className="me-buttons">
@@ -41,7 +46,27 @@ const Me = () => {
           />
         </div>
         <div className="me-socials">
-          <Button label="Github" link="https://leetcode.com/u/evkade/" />
+          <Button
+            icon={<Github />}
+            label=""
+            size="icon"
+            link="https://leetcode.com/u/evkade/"
+            variant="social"
+          />
+          <Button
+            icon={<Linkedin />}
+            label=""
+            size="icon"
+            link="https://www.linkedin.com/in/despinoy/"
+            variant="social"
+          />
+          <Button
+            icon={<Mail />}
+            label=""
+            size="icon"
+            link="mailto:eva.despinoy@gmail.com"
+            variant="social"
+          />
         </div>
       </div>
     </section>

@@ -13,6 +13,7 @@
   transition: all 0.2s ease-in-out; /* transition-colors + scale etc */
   pointer-events: auto;
   text-decoration: none; 
+  cursor: pointer;
 }
 
 .button:disabled {
@@ -75,6 +76,23 @@
 .button-ghost:hover {
   background-color: #f3f4f6; /* hover:bg-accent */
   color: #1f2937; /* hover:text-accent-foreground */
+}
+
+.button-social {
+  display: inline-flex;           /* ensures proper alignment if you have an icon */
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;                /* p-2 */
+  border-radius: 9999px;          /* rounded-full */
+  background-color: var(--secondary); /* bg-secondary */
+  color: inherit;                 /* keep text color default */
+  transition: all 0.2s ease;      /* transition-all duration-200 */
+  text-decoration: none;           /* remove underline if needed */
+}
+
+.button-social:hover {
+  background-color: var(--accent);         /* hover:bg-accent */
+  color: var(--accent-foreground);         /* hover:text-accent-foreground */
 }
 
 .button-link {

@@ -25,18 +25,29 @@
   animation: fade-in 0.5s ease forwards;
 }
 
-/* Heading */
 .me-title {
+  font-family: 'YourDisplayFont', sans-serif; /* replace with your display font */
+  font-weight: 700; /* bold */
   font-size: 3rem; /* text-5xl */
-  font-weight: 700;
-  color: var(--primary); /* assumes you have a --primary CSS variable */
-  margin-bottom: 1.5rem;
+  line-height: 1.1; /* leading-tight */
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .me-title {
-    font-size: 4.5rem; /* md:text-7xl */
+    font-size: 4.5rem; /* lg:text-7xl */
   }
+}
+
+.me-title .intro {
+  display: block;
+  color: var(--foreground); /* normal text color */
+}
+
+.me-title .name {
+  display: block;
+  background: linear-gradient(90deg, #3b82f6, #06b6d4); /* example gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /* Paragraph */
