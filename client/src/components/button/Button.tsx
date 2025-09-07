@@ -11,7 +11,7 @@ type ButtonProps = {
     | "secondary"
     | "ghost"
     | "link"
-    | "social";
+    | "icon";
   size?: "default-size" | "sm" | "lg" | "icon";
   icon?: React.ReactNode;
 };

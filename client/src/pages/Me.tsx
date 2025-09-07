@@ -1,71 +1,90 @@
-import Button from "../components/button/Button";
+import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+
 import "./Me.css";
-import { Mail, Github, Linkedin } from "lucide-react";
+import Button from "../components/button/Button";
+import eva from "../static_resources/eva.png";
 
 const Me = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
-    element?.scrollIntoView({ behavior: "smooth" });
+    if (element) element.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
-    <section className="me">
+    <section id="me" className="me-section">
       <div className="me-container">
-        <div>
-          <img
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
-            alt="Eva Despinoy"
-            className="me-profile"
-          />
+        <div className="me-grid">
+          <div className="me-text animate-fade-in-up">
+            <div className="me-headings">
+              <h1 className="me-title">
+                <span className="me-title-line">Hi, I'm</span>
+                <span className="me-title-name">Eva Despinoy</span>
+              </h1>
+              <h2 className="me-subtitle">Fullstack Software Engineer</h2>
+            </div>
+
+            <p className="me-description">
+              Working accross the stack, I am both passionate about building
+              reliable and scalable systems, and creating exceptional user
+              experiences.
+            </p>
+
+            <div className="me-buttons">
+              <Button
+                size="lg"
+                onClick={() => scrollToSection("projects")}
+                label="View my work"
+              />
+              <Button
+                size="lg"
+                onClick={() => scrollToSection("contact")}
+                label="Let's Connect"
+              />
+            </div>
+
+            <div className="me-socials">
+              <Button
+                icon={<Github />}
+                label=""
+                size="icon"
+                link="https://leetcode.com/u/evkade/"
+                variant="icon"
+              />
+              <Button
+                icon={<Linkedin />}
+                label=""
+                size="icon"
+                link="https://www.linkedin.com/in/despinoy/"
+                variant="icon"
+              />
+              <Button
+                icon={<Mail />}
+                label=""
+                size="icon"
+                link="mailto:eva.despinoy@gmail.com"
+                variant="icon"
+              />
+            </div>
+          </div>
+
+          <div className="me-image-container animate-fade-in-up delay-200">
+            <div className="me-image-wrapper">
+              <img
+                src={eva}
+                alt="Alex Johnson - Software Engineer"
+                className="me-image"
+              />
+              <div className="me-image-overlay"></div>
+            </div>
+          </div>
         </div>
-        <div
-          style={{
-            animationDelay: "0.2s",
-            animationName: "fade-in",
-            animationFillMode: "forwards",
-          }}
-        >
-          <h1 className="me-title">
-            <span className="intro">Hi, I'm</span>
-            <span className="name">Eva Despinoy</span>
-          </h1>
-          <p className="me-subtitle">
-            Working accross the stack, I am both passionate about building
-            reliable and scalable systems, and creating exceptional user
-            experiences.
-          </p>
-        </div>
-        <div className="me-buttons">
+
+        <div className="me-scroll-indicator">
           <Button
-            label="View my work"
-            onClick={() => scrollToSection("projects")}
-          />
-          <Button
-            label="Let's connect"
-            onClick={() => scrollToSection("contact")}
-          />
-        </div>
-        <div className="me-socials">
-          <Button
-            icon={<Github />}
+            variant="icon"
+            onClick={() => scrollToSection("about")}
             label=""
-            size="icon"
-            link="https://leetcode.com/u/evkade/"
-            variant="social"
-          />
-          <Button
-            icon={<Linkedin />}
-            label=""
-            size="icon"
-            link="https://www.linkedin.com/in/despinoy/"
-            variant="social"
-          />
-          <Button
-            icon={<Mail />}
-            label=""
-            size="icon"
-            link="mailto:eva.despinoy@gmail.com"
-            variant="social"
+            icon={<ArrowDown />}
           />
         </div>
       </div>
