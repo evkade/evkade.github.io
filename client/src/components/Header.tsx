@@ -31,12 +31,6 @@ const Header = () => {
             )
           )}
         </div>
-        <button
-          onClick={() => scrollToSection("contact")}
-          className="cta-button"
-        >
-          Get In Touch
-        </button>
       </nav>
     </header>
   );
