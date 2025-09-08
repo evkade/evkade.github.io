@@ -6,40 +6,46 @@ interface ProjectItem {
   description: string;
   image: string;
   technologies: string[];
-  demoUrl: string;
-  githubUrl: string;
+  demoUrl: string | null;
+  githubUrl: string | null;
 }
 
 const projects: ProjectItem[] = [
   {
-    title: "E-Commerce Platform",
+    title: "Metapp",
     description:
-      "Full-featured online store with payment integration, inventory management, and admin dashboard.",
+      "Created a website for bar ordering in a team of 4 people. Users can use the app to order drinks, and bar staff can see and respond to orders live.",
     image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop",
-    technologies: ["React", "Node.js", "Stripe", "MongoDB"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop", // todo
+    technologies: ["TypeScript", "React", "Sass", "Node.js", "MongoDB"],
+    demoUrl: null,
+    githubUrl: "https://github.com/evkade/metapp",
   },
   {
-    title: "Task Management App",
+    title: "Stage Me Up",
     description:
-      "Collaborative project management tool with real-time updates, team collaboration features.",
+      "Developed an app for a startup in a team of 8 people, to match event organizers and artists.",
     image:
-      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=300&fit=crop",
-    technologies: ["Vue.js", "Firebase", "Vuetify", "PWA"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=300&fit=crop", // todo
+    technologies: [
+      "JavaScript",
+      "React Native",
+      "Firebase authentication",
+      "Redux",
+      "HTML",
+      "CSS",
+    ],
+    demoUrl: null,
+    githubUrl: null,
   },
   {
-    title: "Analytics Dashboard",
-    description:
-      "Data visualization platform with interactive charts, real-time metrics, and customizable reports.",
+    title: "Personal website",
+    description: "This website :)",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=300&fit=crop",
-    technologies: ["React", "D3.js", "Python", "PostgreSQL"],
-    demoUrl: "#",
-    githubUrl: "#",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=300&fit=crop", // todo
+    technologies: ["TypeScript", "React", "CSS", "HTML"],
+    demoUrl: "#", // todo
+    githubUrl: "https://github.com/evkade/cv",
   },
 ];
 
@@ -74,22 +80,26 @@ function Projects() {
                   ))}
                 </div>
                 <div className="project-links">
-                  <a
-                    href={project.demoUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-primary"
-                  >
-                    Live Demo
-                  </a>
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-outline"
-                  >
-                    <Github className="icon" />
-                  </a>
+                  {project.demoUrl && (
+                    <a
+                      href={project.demoUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-primary"
+                    >
+                      Live Demo
+                    </a>
+                  )}
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-outline"
+                    >
+                      <Github className="icon" />
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

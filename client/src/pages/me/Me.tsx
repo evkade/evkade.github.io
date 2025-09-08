@@ -47,7 +47,7 @@ const Me = () => {
                 icon={<Github />}
                 label=""
                 size="icon"
-                link="https://leetcode.com/u/evkade/"
+                link="https://github.com/u/evkade/"
                 variant="icon"
               />
               <Button
