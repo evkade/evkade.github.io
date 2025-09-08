@@ -1,5 +1,5 @@
 .experience-section {
-  padding: 5rem 1.5rem;
+  padding: 4rem 1.5rem;
 }
 
 .experience-container {
@@ -15,24 +15,14 @@
   margin-bottom: 3rem;
 }
 
-.timeline {
-  position: relative;
-  padding-left: 2rem;
-}
-
 .timeline-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 2rem;
   margin-bottom: 3rem;
-  position: relative;
 }
 
 .timeline-content {
-  flex: 1;
   background: white;
   border-radius: 0.75rem;
-  padding: 1.5rem;
+  padding: 2rem;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   transition: box-shadow 0.3s ease;
 }
@@ -43,9 +33,10 @@
 
 .experience-header {
   display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  margin-bottom: 1rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
 }
 
 .experience-header .role {
@@ -56,7 +47,8 @@
 
 .experience-header .company {
   font-size: 1rem;
-  color: var(--accent-foreground);
+  color: var(--primary);
+  margin: 0.5rem 0 0 0;
 }
 
 .experience-header .period {
@@ -65,7 +57,7 @@
   background: #f1f5f9;
   padding: 0.25rem 0.75rem;
   border-radius: 9999px;
-  align-self: flex-start;
+  margin-bottom: 2rem;
 }
 
 .description {
@@ -87,7 +79,6 @@
   border-radius: 9999px;
 }
 
-/* Animations */
 .fade-in {
   opacity: 0;
   transform: translateY(20px);

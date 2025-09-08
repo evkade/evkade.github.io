@@ -21,9 +21,6 @@ export const experiences: ExperienceItem[] = [
           Full-stack developer in the Test Infra team (12 people), which builds
           continuous integration tools used by all software engineers at Meta.
         </p>
-        <p>
-          Stack: JavaScript, React.js, GraphQL, Rust, MySQL, PHP, Jest, bash.
-        </p>
         <ul>
           <li>
             Owner of Issue Tracker, analyzing test quality and sending tasks to
@@ -79,7 +76,7 @@ export const experiences: ExperienceItem[] = [
     description: (
       <>
         <p>
-          Led a team of 6, overseeing photography, graphic design, and content
+          I led a team of 6, overseeing photography, graphic design, and content
           creation for the project’s social media and website.
         </p>
         <p>I organized the work using a scrum-based approach.</p>
@@ -99,8 +96,9 @@ export const experiences: ExperienceItem[] = [
     description: (
       <>
         <p>
-          Assisted students with learning web development, tested code, and
-          graded projects.
+          I assisted students with learning web development, tested their code,
+          and graded their projects, in addition with helping the professor with
+          developing the course material.
         </p>
       </>
     ),
@@ -113,8 +111,9 @@ export const experiences: ExperienceItem[] = [
     description: (
       <>
         <p>
-          Created new features in the Facebook Business Media Library for
-          storing and organizing media used in ads.
+          I worked on the Facebook Business Media Library for storing and
+          organizing media used in ads, creating new requested features in
+          collaboration with XFN partners.
         </p>
       </>
     ),
@@ -127,8 +126,8 @@ export const experiences: ExperienceItem[] = [
     description: (
       <>
         <p>
-          Automated a manual process of converting data from Matlab to Excel to
-          Word templates.
+          I automated a manual process of converting data from Matlab to Excel
+          to Word templates.
         </p>
       </>
     ),
@@ -141,7 +140,7 @@ function Experience() {
     <section id="experience" className="experience-section">
       <div className="experience-container">
         <h2 className="experience-title">Experience</h2>
-        <div className="timeline">
+        <div>
           {experiences.map((exp, index) => (
             <div
               key={index}
@@ -150,8 +149,8 @@ function Experience() {
             >
               <div className="timeline-content">
                 <div className="experience-header">
-                  <div>
-                    <h3 className="role">{exp.title}</h3>
+                  <div className="left">
+                    <h2 className="role">{exp.title}</h2>
                     <p className="company">{exp.company}</p>
                   </div>
                   <span className="period">{exp.period}</span>
