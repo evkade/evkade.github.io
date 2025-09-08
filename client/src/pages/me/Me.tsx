@@ -24,9 +24,9 @@ const Me = () => {
             </div>
 
             <p className="me-description">
-              Working accross the stack, I am both passionate about building
-              reliable and scalable systems, and creating exceptional user
-              experiences.
+              With experience across the stack, I’m passionate about designing
+              reliable, scalable systems while crafting exceptional user
+              experiences..
             </p>
 
             <div className="me-buttons">
