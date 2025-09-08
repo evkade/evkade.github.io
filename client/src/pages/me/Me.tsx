@@ -26,7 +26,7 @@ const Me = () => {
             <p className="me-description">
               With experience across the stack, I’m passionate about designing
               reliable, scalable systems while crafting exceptional user
-              experiences..
+              experiences.
             </p>
 
             <div className="me-buttons">
