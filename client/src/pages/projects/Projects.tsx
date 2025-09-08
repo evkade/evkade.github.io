@@ -16,7 +16,7 @@ const projects: ProjectItem[] = [
     description:
       "Created a website for bar ordering in a team of 4 people. Users can use the app to order drinks, and bar staff can see and respond to orders live.",
     image:
-      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=300&fit=crop", // todo
+      "https://user-images.githubusercontent.com/38752330/138086211-440679d8-1250-4147-8975-6caea305a2d9.png", // todo
     technologies: ["TypeScript", "React", "Sass", "Node.js", "MongoDB"],
     demoUrl: null,
     githubUrl: "https://github.com/evkade/metapp",
