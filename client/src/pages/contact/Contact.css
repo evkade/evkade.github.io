@@ -152,5 +152,5 @@
 }
 
 .btn-primary:hover {
-  background: var(--primary-dark, #2563eb);
+  background: var(--primary-dark);
 }

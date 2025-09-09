@@ -15,7 +15,7 @@ function Contact() {
           <div className="contact-info">
             <p className="contact-text">
               Interested in working together or just want to connect? Drop me a
-              message, I’d be happy to hear from you
+              message, I’d be happy to hear from you!
             </p>
             <div className="contact-details">
               <div className="contact-item">

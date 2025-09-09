@@ -29,25 +29,12 @@ const Me = () => {
               experiences.
             </p>
 
-            <div className="me-buttons">
-              <Button
-                size="lg"
-                onClick={() => scrollToSection("projects")}
-                label="View my work"
-              />
-              <Button
-                size="lg"
-                onClick={() => scrollToSection("contact")}
-                label="Let's Connect"
-              />
-            </div>
-
             <div className="me-socials">
               <Button
                 icon={<Github />}
                 label=""
                 size="icon"
-                link="https://github.com/u/evkade/"
+                link="https://github.com/evkade"
                 variant="icon"
               />
               <Button

@@ -58,9 +58,15 @@ main {
 
 :root {
   --primary: #3b82f6;
+  --primary-dark: #2563eb;
   --secondary: #e5e7eb;
   --accent: #60a5fa;
   --accent-foreground: #1f2937;
   --foreground: #1f2937;
-  --background: #ffffff;
+  --muted: #6b7280;
+  --background: #f9fafb;
+  --secondary: #ffffff;
+  --card-shadow: rgba(0,0,0,0.1);
+  --glow: #22d3ee;
+  --card-bg: #ffffff;
 }

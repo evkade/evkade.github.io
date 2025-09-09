@@ -26,7 +26,7 @@ const projects: ProjectItem[] = [
     description:
       "Developed an app for a startup in a team of 8 people, to match event organizers and artists.",
     image:
-      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=300&fit=crop", // todo
+      "https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNjhjMDkzNGQ3OGFjODE5MTkyYmY4ZDBlMjQwNGY2OTk6ZmlsZV8wMDAwMDAwMDIwODA2MjBhOTVhMzU5YzBjNTgxMjZiMSIsInRzIjoiNDg4MTgwIiwicCI6InB5aSIsImNpZCI6IjEiLCJzaWciOiI5YWEzYTgxY2FmYjFlYmYwMmZlMTk5NTM3MjNjZTQ2NmE1ODA0ZjQ2YjQ0OGI2ODM2NmJiMmYwYWQ1ODAzOWZhIiwidiI6IjAiLCJnaXptb19pZCI6bnVsbCwiY3AiOm51bGx9",
     technologies: [
       "JavaScript",
       "React Native",
@@ -42,7 +42,7 @@ const projects: ProjectItem[] = [
     title: "Personal website",
     description: "This website :)",
     image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=300&fit=crop", // todo
+      "https://i.postimg.cc/d3HsQ7j6/Capture-d-e-cran-2025-09-09-a-21-42-49.png", // todo
     technologies: ["TypeScript", "React", "CSS", "HTML"],
     demoUrl: "#", // todo
     githubUrl: "https://github.com/evkade/cv",
