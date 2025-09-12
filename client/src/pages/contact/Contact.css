@@ -12,13 +12,9 @@
   font-weight: bold;
   text-align: center;
   color: var(--primary);
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
-.contact-grid {
-  display: grid;
-  gap: 3rem;
-}
 
 @media (min-width: 768px) {
   .contact-grid {
@@ -30,6 +26,7 @@
 .contact-info {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 2rem;
 }
 
@@ -47,7 +44,7 @@
 
 .contact-details {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 1.5rem;
 }
 
