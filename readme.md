@@ -11,9 +11,12 @@ npm install express cors body-parser
 
 ## Run
 
-### Client 
+### Client
+cd client
 npm start
 
-### Server 
-npm init -y
-npm install express cors body-parser
+### Server
+cd server
+node index.js
+
+## Deployment
