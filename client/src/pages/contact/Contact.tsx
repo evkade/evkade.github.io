@@ -12,6 +12,22 @@ function Contact() {
             message, I’d be happy to hear from you!
           </p>
           <div className="contact-details">
+            <a
+              href="https://www.linkedin.com/in/despinoy/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <Linkedin className="contact-icon" />
+            </a>
+            <a
+              href="https://github.com/evkade/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="social-link"
+            >
+              <Github className="contact-icon" />
+            </a>
             <div className="contact-item">
               <div className="contact-icon-wrapper">
                 <Mail className="contact-icon" />
@@ -31,25 +47,6 @@ function Contact() {
                 <p className="contact-value">+46 7 09 65 05 10</p>
               </div>
             </div>
-          </div>
-
-          <div className="contact-socials">
-            <a
-              href="https://www.linkedin.com/in/despinoy/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-link"
-            >
-              <Linkedin className="contact-icon" />
-            </a>
-            <a
-              href="https://github.com/evkade/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="social-link"
-            >
-              <Github className="contact-icon" />
-            </a>
           </div>
         </div>
       </div>
