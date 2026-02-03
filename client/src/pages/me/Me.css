@@ -101,6 +101,10 @@
   transform: translateX(-50%);
 }
 
+.me-scroll-indicator .button {
+  padding-top: 4px;
+}
+
 .scroll-button {
   padding: 0.5rem;
   border-radius: 9999px;
