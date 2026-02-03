@@ -114,7 +114,7 @@
 .me-image-wrapper {
   position: relative;
   max-width: 28rem;
-  margin: 0 auto;
+  margin-left: auto;
   background: white;
   border-radius: 1rem;
 }
@@ -128,7 +128,7 @@
 /* Scroll Indicator */
 .me-scroll-indicator {
   position: absolute;
-  bottom: 0rem;
+  bottom: -5rem;
   left: 50%;
   transform: translateX(-50%);
 }
