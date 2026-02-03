@@ -58,10 +58,9 @@ const Me = () => {
             <div className="me-image-wrapper">
               <img
                 src={eva}
-                alt="Alex Johnson - Software Engineer"
+                alt="Eva Despinoy - Software Engineer"
                 className="me-image"
               />
-              <div className="me-image-overlay"></div>
             </div>
           </div>
         </div>

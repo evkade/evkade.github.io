@@ -115,21 +115,14 @@
   position: relative;
   max-width: 28rem;
   margin: 0 auto;
+  background: white;
+  border-radius: 1rem;
 }
 
 .me-image {
   width: 100%;
   border-radius: 1rem;
-  box-shadow: 0 10px 25px var(--card-shadow);
   animation: float 6s ease-in-out infinite;
-}
-
-.me-image-overlay {
-  position: absolute;
-  inset: 0;
-  border-radius: 1rem;
-  background: var(--primary);
-  opacity: 0.1;
 }
 
 /* Scroll Indicator */
