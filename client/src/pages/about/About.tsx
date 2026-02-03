@@ -60,7 +60,7 @@ function About() {
 
         <div className="about-highlights">
           {highlights.map((highlight, index) => (
-            <Highlight highlight={highlight} index={index} />
+            <Highlight key={index} highlight={highlight} index={index} />
           ))}
         </div>
 

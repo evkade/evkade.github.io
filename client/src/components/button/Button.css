@@ -9,7 +9,7 @@
   font-size: 0.875rem; /* text-sm */
   font-weight: 500; /* font-medium */
   outline: none;
-  border: grey;
+  border: none;
   transition: all 0.2s ease-in-out; /* transition-colors + scale etc */
   pointer-events: auto;
   text-decoration: none; 

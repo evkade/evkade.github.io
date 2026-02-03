@@ -160,7 +160,7 @@ function Experience() {
             >
               <div className="timeline-content">
                 <div className="experience-header">
-                  <div className="left">
+                  <div>
                     <h2 className="role">{exp.title}</h2>
                     <p className="company">{exp.company}</p>
                   </div>

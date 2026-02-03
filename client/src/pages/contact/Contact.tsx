@@ -43,7 +43,7 @@ function Contact() {
               <Linkedin className="contact-icon" />
             </a>
             <a
-              href="https://github.com/u/evkade/"
+              href="https://github.com/evkade/"
               target="_blank"
               rel="noopener noreferrer"
               className="social-link"

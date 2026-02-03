@@ -44,7 +44,7 @@ const projects: ProjectItem[] = [
     image:
       "https://i.postimg.cc/d3HsQ7j6/Capture-d-e-cran-2025-09-09-a-21-42-49.png", // todo
     technologies: ["TypeScript", "React", "CSS", "HTML"],
-    demoUrl: "#", // todo
+    demoUrl: null,
     githubUrl: "https://github.com/evkade/cv",
   },
 ];
