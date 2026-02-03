@@ -73,3 +73,14 @@
   background: rgba(59, 130, 246, 0.2);
 }
 
+/* Mobile */
+@media (max-width: 639px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+  .contact-details {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+

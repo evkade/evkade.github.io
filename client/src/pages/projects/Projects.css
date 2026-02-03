@@ -141,6 +141,16 @@
   height: 1rem;
 }
 
+/* Mobile */
+@media (max-width: 639px) {
+  .projects-title {
+    font-size: 2rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Animations */
 .fade-in {
   opacity: 0;

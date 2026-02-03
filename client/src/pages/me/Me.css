@@ -13,6 +13,7 @@
   max-width: 1200px;
   margin: 0 auto;
   width: 100%;
+  padding: 0 1.5rem;
   position: relative;
 }
 
@@ -133,4 +134,24 @@
 @keyframes float {
   0%,100% { transform: translateY(0);}
   50% { transform: translateY(-10px);}
+}
+
+/* Mobile: center content when grid stacks */
+@media (max-width: 1023px) {
+  .me-text {
+    text-align: center;
+  }
+  .me-title {
+    font-size: 2.25rem;
+  }
+  .me-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .me-socials {
+    justify-content: center;
+  }
+  .me-image-wrapper {
+    margin: 0 auto;
+  }
 }
