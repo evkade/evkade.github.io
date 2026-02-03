@@ -32,7 +32,11 @@
 .brand {
   font-size: 1.5rem; /* text-2xl */
   font-weight: 700;  /* font-bold */
-  color: var(--primary-dark);    /* example primary color (blue-600) */
+  color: var(--primary-dark);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 
 /* Responsive: hide nav links on small screens, show on md+ */

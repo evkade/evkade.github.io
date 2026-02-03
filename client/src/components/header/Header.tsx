@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <header className={`header ${isScrolled ? "scrolled" : "not-scrolled"}`}>
       <nav className="navbar">
-        <div className="brand">Eva Despinoy</div>
+        <button className="brand" onClick={() => scrollToSection("me")}>Eva Despinoy</button>
         <div className="nav-links">
           {["about", "skills", "experience", "projects", "contact"].map(
             (item) => (
