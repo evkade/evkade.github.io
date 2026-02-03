@@ -26,7 +26,7 @@ const projects: ProjectItem[] = [
     description:
       "Developed an app for a startup in a team of 8 people, to match event organizers and artists.",
     image:
-      "https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNjhjMDkzNGQ3OGFjODE5MTkyYmY4ZDBlMjQwNGY2OTk6ZmlsZV8wMDAwMDAwMDIwODA2MjBhOTVhMzU5YzBjNTgxMjZiMSIsInRzIjoiNDg4MTgwIiwicCI6InB5aSIsImNpZCI6IjEiLCJzaWciOiI5YWEzYTgxY2FmYjFlYmYwMmZlMTk5NTM3MjNjZTQ2NmE1ODA0ZjQ2YjQ0OGI2ODM2NmJiMmYwYWQ1ODAzOWZhIiwidiI6IjAiLCJnaXptb19pZCI6bnVsbCwiY3AiOm51bGx9",
+      "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400' viewBox='0 0 600 400'%3E%3Crect width='600' height='400' fill='%23e2e8f0'/%3E%3Ctext x='300' y='200' text-anchor='middle' dominant-baseline='middle' fill='%236b7280' font-family='sans-serif' font-size='20'%3ENo image%3C/text%3E%3C/svg%3E",
     technologies: [
       "JavaScript",
       "React Native",
