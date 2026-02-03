@@ -12,9 +12,20 @@ export type ExperienceItem = {
 
 export const experiences: ExperienceItem[] = [
   {
+    title: "Software Engineer Consultant",
+    company: "Netlight – Stockholm",
+    period: "January 2026 – Present",
+    description: (
+      <>
+        <p>I am currently a software engineering consultant at Netlight.</p>
+      </>
+    ),
+    technologies: [],
+  },
+  {
     title: "Software Engineer",
     company: "Meta – London, UK",
-    period: "September 2022 – Present",
+    period: "September 2022 – December 2025",
     description: (
       <>
         <p>

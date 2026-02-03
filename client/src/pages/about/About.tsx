@@ -27,9 +27,9 @@ function About() {
     "Programming Languages": [
       "JavaScript",
       "TypeScript",
-      "Python",
       "Java",
       "Rust",
+      "Python",
       "PHP",
       "Bash",
       "HTML",
@@ -53,8 +53,8 @@ function About() {
         <div className="about-header">
           <h2 className="about-title">About me</h2>
           <p className="about-subtitle">
-            A passionate developer with 3+ years of experience building reliable
-            products and systems.
+            I am a passionate developer with 4+ years of experience building
+            reliable products and systems.
           </p>
         </div>
 
